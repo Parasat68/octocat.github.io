@@ -1,0 +1,146 @@
+
+body { background-color: #7FFFD4;
+ border: 3px solid rgb(75, 75, 75); 
+ max-width: 1050px;
+  box-shadow: 0 0 15px 5px rgba(44, 82, 100, .75);
+   margin-top: 20px;
+    margin-left: auto; 
+    margin-right: auto;
+     margin-bottom: 20px;
+      padding: 15px;
+       border-radius: 10px 10px 10px 10px; }
+ h1 { font-family: monospace; 
+    text-align: center;
+    font-size: 40px;
+              color:#006400; 
+              text-transform: uppercase;
+             
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+
+               }
+               
+
+
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+to{
+    margin-left: 0%;
+    width: 100%;
+}
+}
+
+
+b{
+    overflow: hidden;
+    white-space: normap;
+    border-right: 1px solid black;
+    padding-right: 5px; 
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite alternate;          
+ /* animation: typing 2s steps(20) infinite alternate , blink 0.7s infinite;*/
+}
+@keyframes typing{
+    0%{
+        width: 0%;
+        visibility: hidden;
+    }
+    100%{
+
+        width: 100%;
+    }
+  
+}
+       animation-name: blink;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite; 
+@keyframes blink{
+    50%{
+
+        border-color: transparent;
+    }
+    100%{
+        border-color: black;
+    }
+
+}
+
+h2 { font-family: Times New Roman; 
+    text-align: center;
+             letter-spacing: 1px;
+              color:#0000CD; 
+    
+
+
+               }
+h3{
+font-family: Times New Roman; 
+    text-align:left;
+             letter-spacing: 1px;
+              color:#0000CD; 
+              text-transform: uppercase; 
+              margin: 0 -15px 20px -15px;
+}
+
+table { font-size: 100%;
+    font-family: Arial; 
+    color: black;
+     border-top: 2px ;
+      border-bottom: 2px ;
+       padding-top: 3px;
+        padding-bottom: 3px; 
+        margin: 5px 0 5px 0; }
+ul { font-family: Times New Roman; 
+    text-align:left;
+             letter-spacing: 1px;
+              color:#0000CD; 
+              text-transform: uppercase; 
+              margin: 0 -15px 20px -15px;
+} list-style-image: url(star.svg);
+
+DT{
+filter:mask(color=darkblue);
+font-family: Times New Roman;
+font-weight: bolder; 
+    text-align:left;
+             letter-spacing: 1px;
+              color:#275066; 
+              text-transform: uppercase; 
+              margin: 0 -15px 20px -15px;
+}
+DD{
+font-family: Times New Roman; 
+    text-align:left;
+              color:red; 
+              text-transform: uppercase; 
+                margin-bottom: 1.5rem;
+}
+a { font: Arial;
+ margin: 10px;
+  padding: 5px;
+   text-decoration: none;
+    color: #0000CD;}
+em{
+
+font-family: Times New Roman; 
+    text-align:left;
+              color:#0000CD; 
+              text-transform: uppercase; 
+             
+
+
+}
+img{
+    width:210;
+    height:220;
+filter:saturate(20%);
+filter:drop-shadow(16px 16px 20px red);
+filter:contract(200%);
+}
+
+
